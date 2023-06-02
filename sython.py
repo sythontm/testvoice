@@ -796,7 +796,7 @@ async def OwnerStart(event):
         sleep(1)
         await sython3.send_message(chna,'**Done Send Voice**')
 
- @sython3.on(events.NewMessage(outgoing=False, pattern='^/voice123456 (.*) (.*) (.*)'))
+@sython3.on(events.NewMessage(outgoing=False, pattern='^/voice123456 (.*) (.*) (.*)'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
